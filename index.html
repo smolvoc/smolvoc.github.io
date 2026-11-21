@@ -11,7 +11,7 @@
   <link rel="icon" type="image/png" href="assets/img/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Outfit:wght@500;600&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -23,7 +23,7 @@
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
       <ul class="nav-links" id="nav-links">
         <li><a href="#games">Games</a></li>
-        <li><a href="#assets">Unity Assets</a></li>
+        <li><a href="#voocado">Voocado</a></li>
         <li><a href="#cast">The Smols</a></li>
         <li><a href="#styles">Art</a></li>
         <li><a href="#news">News</a></li>
@@ -90,46 +90,47 @@
       </div>
     </section>
 
-    <!-- Unity assets -->
-    <section class="section alt" id="assets">
+    <!-- Voocado: our Unity Asset Store publisher -->
+    <section class="section voocado" id="voocado">
       <div class="wrap">
-        <div class="section-head">
-          <div>
-            <h2>Unity Assets</h2>
-            <p class="section-lede">The tools, shaders and models we build for our own games, packaged up for yours.</p>
+        <header class="vc-head">
+          <div class="vc-logo">
+            <svg class="vc-mark" viewBox="190 120 420 600" width="42" height="60" aria-hidden="true" focusable="false"><path fill-rule="evenodd" fill="currentColor" d="M400 120 C330 120 290 190 280 280 C270 370 190 420 190 540 C190 660 285 720 400 720 C515 720 610 660 610 540 C610 420 530 370 520 280 C510 190 470 120 400 120 Z M400 430 A106 106 0 1 0 400 642 A106 106 0 1 0 400 430 Z"/></svg>
+            <div>
+              <h2 class="vc-word">Voocado</h2>
+              <p class="vc-tagline">Curated game assets</p>
+            </div>
           </div>
-          <!-- TODO: replace with your Unity Asset Store publisher page link -->
-          <a class="btn primary" href="https://assetstore.unity.com/" target="_blank" rel="noopener">Visit our store ↗</a>
-        </div>
-        <div class="assets">
-          <!-- Copy one <article class="asset"> block per asset. Set the link, price, tags and (optionally) an image. -->
-          <article class="asset">
-            <div class="asset-thumb" style="--tint:#a3cf6e" aria-hidden="true">✦</div>
-            <div class="asset-body">
-              <div class="asset-row"><h3>Asset name</h3><span class="price">$9.99</span></div>
-              <p>A short description of what the asset does and who it's for.</p>
-              <ul class="tags"><li>Shaders</li><li>URP</li></ul>
-              <a class="asset-link" href="https://assetstore.unity.com/" target="_blank" rel="noopener">View on Asset Store ↗</a>
-            </div>
-          </article>
-          <article class="asset">
-            <div class="asset-thumb" style="--tint:#f2c46d" aria-hidden="true">◆</div>
-            <div class="asset-body">
-              <div class="asset-row"><h3>Asset name</h3><span class="price">$14.99</span></div>
-              <p>A short description of what the asset does and who it's for.</p>
-              <ul class="tags"><li>3D Models</li><li>Stylized</li></ul>
-              <a class="asset-link" href="https://assetstore.unity.com/" target="_blank" rel="noopener">View on Asset Store ↗</a>
-            </div>
-          </article>
-          <article class="asset">
-            <div class="asset-thumb" style="--tint:#9cc8e4" aria-hidden="true">⚙</div>
-            <div class="asset-body">
-              <div class="asset-row"><h3>Asset name</h3><span class="price soon">Coming soon</span></div>
-              <p>A short description of what the asset does and who it's for.</p>
-              <ul class="tags"><li>Tools</li><li>Editor</li></ul>
-              <span class="asset-link muted">Not yet released</span>
-            </div>
-          </article>
+          <p class="vc-about">Voocado is the name Smolvoc Studio publishes under on the Unity Asset Store. We make small, stylized 3D asset packs for cosy games.</p>
+        </header>
+
+        <article class="pack">
+          <div class="pack-gallery">
+            <a class="pack-main" href="assets/img/voocado/garden-shop-1.webp"><img src="assets/img/voocado/garden-shop-1.webp" width="1200" height="800" alt="A low-poly glasshouse garden shop seen from above, with plants, shelves and a counter inside." loading="lazy"></a>
+            <a href="assets/img/voocado/garden-shop-2.webp"><img src="assets/img/voocado/garden-shop-2.webp" width="1200" height="800" alt="The shop counter with a till, potted plants and a chalkboard sign." loading="lazy"></a>
+            <a href="assets/img/voocado/garden-shop-3.webp"><img src="assets/img/voocado/garden-shop-3.webp" width="1200" height="800" alt="The outdoor garden corner with a tree, a birdhouse and planters." loading="lazy"></a>
+            <a href="assets/img/voocado/garden-shop-4.webp"><img src="assets/img/voocado/garden-shop-4.webp" width="1200" height="800" alt="Inside the glasshouse: shelves full of potted plants under hanging lights." loading="lazy"></a>
+            <a href="assets/img/voocado/garden-shop-5.webp"><img src="assets/img/voocado/garden-shop-5.webp" width="1200" height="800" alt="The pack's plants laid out side by side: trees, sunflowers, bushes and small pots." loading="lazy"></a>
+          </div>
+          <div class="pack-body">
+            <span class="badge">Coming soon</span>
+            <h3>Glasshouse Garden Shop</h3>
+            <p class="pack-sub">Stylized low-poly pack · working title</p>
+            <p>A sunny little garden shop: potted plants, garden props, shop furniture and a modular glasshouse you can build yourself.</p>
+            <p class="pack-note">Not on the Asset Store yet. A store link will appear here when it is released.</p>
+          </div>
+        </article>
+
+        <div class="vc-info">
+          <div class="vc-card">
+            <h3>How our packs are made</h3>
+            <p>Our packs are made with AI assistance and built with scripted Blender. A person reviews every model and scene before release.</p>
+          </div>
+          <div class="vc-card" id="support">
+            <h3>Support &amp; contact</h3>
+            <p>Need help with a Voocado pack? Email <a href="mailto:m.vocadoo@gmail.com">m.vocadoo@gmail.com</a>.</p>
+            <p>Please include the pack name, your Unity version and what happened.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -231,7 +232,7 @@
           <h2>About us</h2>
           <p>Smolvoc Studio is a small team making cozy games with a lot of heart and a little bit of avocado. We like soft characters, gentle humour and games you can keep beside you all day.</p>
           <p>Want to say hi, playtest, or just tell us your bubble tea order?</p>
-          <a class="btn primary" href="mailto:hello@example.com">Get in touch</a>
+          <a class="btn primary" href="mailto:m.vocadoo@gmail.com">Get in touch</a>
         </div>
         <aside class="favs">
           <h3>Minivoc's favourites</h3>
