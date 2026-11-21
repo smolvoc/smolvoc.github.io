@@ -22,6 +22,7 @@
 }
 
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 html { scroll-behavior: smooth; scroll-padding-top: 76px; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 var(--font-body); }
@@ -88,6 +89,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outlin
 .game.featured h3 { font-size: 1.8rem; }
 .badge { display: inline-block; font-size: 0.78rem; font-weight: 700; padding: 3px 10px; border-radius: 999px; background: var(--accent); color: var(--accent-ink); margin-bottom: 10px; }
 .badge.muted { background: var(--bg-alt); color: var(--muted); }
+.game-tagline { font: 600 1.1rem var(--font-display); color: var(--accent); }
 .features { padding-left: 1.2em; margin: 0; color: var(--muted); }
 @media (max-width: 760px) { .games { grid-template-columns: 1fr; } .game.featured { grid-template-columns: 1fr; } }
 
